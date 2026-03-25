@@ -7,21 +7,13 @@ Here are some ideas to get you started:
 <h1 align="center">Hi 👋, I'm Ilham</h1>
 <h3 align="center">A passionate developer creating awesome projects.</h3>
 
-<p align="center">
-  <a href="https://github.com/Oqexip">
-    <img src="https://komarev.com/ghpvc/?username=Oqexip&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-  </a>
-</p>
-
 <br/>
 
 ### 👨‍💻 About Me
-- 🔭 I’m currently working on **exciting new projects**
-- 🌱 I’m currently learning **Advanced Web Development & System Design**
+- 🔭 I’m currently working on **OmongIn**
+- 🌱 I’m currently learning **Web Development & System Design**
 - 👯 I’m looking to collaborate on **Open Source Projects**
 - 💬 Ask me about **Web Development, Backend, and APIs**
-- 📫 How to reach me: **[Add your email or LinkedIn here]**
-
 <br/>
 
 ### 🛠️ Languages and Tools
@@ -39,11 +31,6 @@ Here are some ideas to get you started:
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Oqexip&theme=radical&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=C9D1D9" alt="Oqexip's streak" />
 </p>
 <br/>
-
-### 🏆 Top Languages
-<p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Oqexip&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages" />
-</p>
 
 <br/>
 
