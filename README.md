@@ -4,7 +4,7 @@
 Here are some ideas to get you started:
 -->
 
-<h1 align="center">Hi 👋, I'm Ilham</h1>
+<h1 align="center">Hi, I'm Ilham</h1>
 <h3 align="center">A passionate developer creating awesome projects.</h3>
 
 <br/>
