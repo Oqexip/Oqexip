@@ -1,9 +1,3 @@
-<!--
-**ilham/ilham** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
--->
-
 <h1 align="center">Hi, I'm Ilham</h1>
 <h3 align="center">A passionate developer creating awesome projects.</h3>
 
@@ -14,6 +8,7 @@ Here are some ideas to get you started:
 - 🌱 I’m currently learning **Web Development & System Design**
 - 👯 I’m looking to collaborate on **Open Source Projects**
 - 💬 Ask me about **Web Development, Backend, and APIs**
+
 <br/>
 
 ### 🛠️ Languages and Tools
@@ -25,9 +20,8 @@ Here are some ideas to get you started:
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Oqexip&theme=radical&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=C9D1D9" alt="Oqexip's streak" />
+  <img align="center" src="https://streak-stats.demolab.com/?user=Oqexip&theme=radical&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=C9D1D9" alt="Oqexip's streak" />
 </p>
-<br/>
 
 <br/>
 
