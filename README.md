@@ -1,8 +1,6 @@
 <h1 align="center">Hi, I'm Ilham</h1>
 <h3 align="center">A passionate developer creating awesome projects.</h3>
 
-<br/>
-
 ### 🛠️ Languages and Tools
 <p align="left">
   <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nextjs,nodejs,php,laravel,mysql,postgres,git,github,vscode,docker,figma" />
