@@ -3,14 +3,6 @@
 
 <br/>
 
-### 👨‍💻 About Me
-- 🔭 I’m currently working on **OmongIn**
-- 🌱 I’m currently learning **Web Development & System Design**
-- 👯 I’m looking to collaborate on **Open Source Projects**
-- 💬 Ask me about **Web Development, Backend, and APIs**
-
-<br/>
-
 ### 🛠️ Languages and Tools
 <p align="left">
   <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nextjs,nodejs,php,laravel,mysql,postgres,git,github,vscode,docker,figma" />
