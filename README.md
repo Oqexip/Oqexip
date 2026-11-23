@@ -2,8 +2,7 @@
 
 <p align="center">
   <strong>Turning ideas into projects for the web.</strong><br>
-  From the interface to the backend — one project at a time.
-</p>
+/p>
 
 GitHub activity
 <p align="center">
