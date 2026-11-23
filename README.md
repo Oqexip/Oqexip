@@ -5,38 +5,6 @@
   From the interface to the backend — one project at a time.
 </p>
 
-<p align="center">
-  <a href="https://github.com/Oqexip?tab=repositories"><strong>Explore my projects</strong></a>
-  &nbsp; · &nbsp;
-  <a href="#languages--tools">My toolkit</a>
-  &nbsp; · &nbsp;
-  <a href="#contribution-activity">Contributions</a>
-</p>
-
-
-Languages & tools
-Frontend
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs&amp;theme=light">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs&amp;theme=dark" alt="HTML, CSS, JavaScript, TypeScript, React, and Next.js" height="48">
-</picture>
-
-HTML · CSS · JavaScript · TypeScript · React · Next.js
-Backend & databases
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs,php,laravel,mysql,postgres&amp;theme=light">
-  <img src="https://skillicons.dev/icons?i=nodejs,php,laravel,mysql,postgres&amp;theme=dark" alt="Node.js, PHP, Laravel, MySQL, and PostgreSQL" height="48">
-</picture>
-
-Node.js · PHP · Laravel · MySQL · PostgreSQL
-Development & design
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,github,vscode,docker,figma&amp;theme=light">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,figma&amp;theme=dark" alt="Git, GitHub, Visual Studio Code, Docker, and Figma" height="48">
-</picture>
-
-Git · GitHub · VS Code · Docker · Figma
-
 GitHub activity
 <p align="center">
   <a href="https://github.com/Oqexip">
