@@ -2,7 +2,6 @@
 
 <p align="center">
   <strong>Turning ideas into projects for the web.</strong>
-/p>
 
 GitHub activity
 <p align="center">
