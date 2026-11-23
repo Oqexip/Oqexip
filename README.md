@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Ilham.</h1>
 
 <p align="center">
-  <strong>Turning ideas into projects for the web.</strong><br>
+  <strong>Turning ideas into projects for the web.</strong>
 /p>
 
 GitHub activity
