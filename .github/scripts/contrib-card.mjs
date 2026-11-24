@@ -6,6 +6,7 @@
 
 import { mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
+import { THEMES, contributionSky } from "./lib/contrib-sky.mjs";
 
 const [user = "Oqexip", outDir = "dist"] = process.argv.slice(2);
 const token = process.env.GITHUB_TOKEN;
@@ -122,4 +123,8 @@ function card(t) {
 await mkdir(outDir, { recursive: true });
 await writeFile(join(outDir, "contribution-stats.svg"), card(themes.light));
 await writeFile(join(outDir, "contribution-stats-dark.svg"), card(themes.dark));
+// The same numbers, drawn as a year of stars for the README.
+const stats = { calendar, total, firstDay, current, longest };
+await writeFile(join(outDir, "contribution-sky.svg"), contributionSky(stats, THEMES.light));
+await writeFile(join(outDir, "contribution-sky-dark.svg"), contributionSky(stats, THEMES.dark));
 console.log(JSON.stringify({ total, firstDay, current, longest }));

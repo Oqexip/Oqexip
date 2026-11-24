@@ -1,7 +1,7 @@
 name: Generate Animation
 
 on:
-  # run automatically every hour so the README stats stay current
+  # run automatically every hour so the README stats and sky chart stay current
   schedule:
     - cron: "0 * * * *"
   
@@ -24,11 +24,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # builds dist/contribution-stats(-dark).svg from the GitHub API
+      # builds dist/contribution-stats(-dark).svg and dist/contribution-sky(-dark).svg from the GitHub API
       - name: generate contribution stats cards
         run: node .github/scripts/contrib-card.mjs Oqexip dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # draws dist/sky(-dark).svg: the real sky over Indonesia at the moment this runs
+      - name: generate live sky chart
+        run: node .github/scripts/sky.mjs dist
 
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate github-contribution-grid-snake.svg
