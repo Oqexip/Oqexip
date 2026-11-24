@@ -1,49 +1,35 @@
 <!--
-            .        *                 .            ✦
-      Hello, source reader.         .          *
-                 You found the part of the sky most people skip.
+  root@ilham-server:~$ ./ilham --info
 
-      The chart below is not an image anyone drew. Every hour a GitHub Action
-      runs .github/scripts/sky.mjs, which works out where 1,627 real stars, the
-      Moon and five planets stand over Indonesia, and draws exactly that.
-
-      Want to see it at another moment? From the root of this repo:
-
-          SKY_TIME=2027-07-15T14:00:00Z node .github/scripts/sky.mjs preview
-
-      That one puts the heart of the Milky Way straight overhead. You're welcome.
+  Both cards on this page are SVGs drawn every hour by the snake.yml workflow,
+  straight from the GitHub API: profile-card.mjs for the header and
+  contrib-card.mjs for the year of light. No third-party widgets.
 -->
 
-<a href="https://github.com/Oqexip/Asterism">
+<a href="https://www.oqexip.site">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Oqexip/Oqexip/output/sky-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Oqexip/Oqexip/output/sky.svg">
-    <img src="https://raw.githubusercontent.com/Oqexip/Oqexip/output/sky.svg" alt="Ilham Sikumbang, beside a live star chart of the sky over Indonesia that is redrawn every hour" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Oqexip/Oqexip/output/profile-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Oqexip/Oqexip/output/profile.svg">
+    <img src="https://raw.githubusercontent.com/Oqexip/Oqexip/output/profile.svg" alt="Ilham Sikumbang, fullstack developer in Indonesia. A schematic of the stack Ilham builds across, from pixels to pins: interface (TypeScript, React, Next.js), server (PHP, Laravel, Node.js), vision (Python, OpenCV, MediaPipe) and device (C++, Arduino, ESP32)" width="100%">
   </picture>
 </a>
 
-<p align="center">
-  <sub>
-    Not a picture. Every hour, a GitHub Action works out where 1,627 real stars, the Moon and five planets<br>
-    stand over Indonesia, and draws them. Come back tonight: it will have moved. <a href="#how-the-sky-works">How it works ↓</a>
-  </sub>
-</p>
-
 <br>
 
-## Catalogue of objects
+## Selected work
 
-Things I've built, catalogued the way astronomers catalogue the sky.
+Each project sits on one layer of the schematic above.
 
-| | Object | Runs on | Field notes |
+| Layer | Project | Stack | Engineering notes |
 | :-- | :-- | :-- | :-- |
-| <code>OQX&nbsp;1</code> | **[Asterism](https://github.com/Oqexip/Asterism)** | a browser | A celestial atlas you can draw on. Click from star to star to engrave a figure, give it a name, and your browser keeps it. |
-| <code>OQX&nbsp;2</code> | **[tetrisNano](https://github.com/Oqexip/tetrisNano)** | Arduino&nbsp;Nano | Tetris on an 8×32 LED matrix stood on its end, with a joystick, an OLED scoreboard and a buzzer melody. |
-| <code>OQX&nbsp;3</code> | **[Sedia Aku Sebelum Banjir](https://github.com/Oqexip/sediaAkuSebelumBanjir)** | ESP32 | Flood early warning. When water comes within 20 cm, it wails a siren, locks two servos and messages you on Telegram. The name is a pun on *sedia payung sebelum hujan*, “keep an umbrella ready before it rains”. |
-| <code>OQX&nbsp;4</code> | **[handTracking](https://github.com/Oqexip/handTracking)** | webcam&nbsp;+ Python | Make a frame with your thumbs and index fingers. MediaPipe follows both hands and paints one of 11 live filters inside it. |
-| <code>OQX&nbsp;5</code> | **[EasyVert](https://github.com/Oqexip/EasyVert)** | a browser | PDF, Word, PowerPoint, Excel and image conversions done entirely in your browser. Your files never leave your device. [Try&nbsp;it&nbsp;↗](https://easyvert.vercel.app) |
-| <code>OQX&nbsp;6</code> | **[OmongIn](https://github.com/Oqexip/OmongIn)** | Laravel | Anonymous discussion boards with threads, nested replies and votes. Say what you think, no name required. |
-| <code>OQX&nbsp;7</code> | **[Porto](https://github.com/Oqexip/Porto)** | Next.js | My portfolio, including a public analytics page that shows real visitor numbers or none at all. [Visit&nbsp;↗](https://www.oqexip.site) |
+| <code>U1</code>&nbsp;Interface | **[Porto](https://github.com/Oqexip/Porto)** | Next.js · TypeScript | My portfolio. Its public `/analytics` page reads Vercel Web Analytics on the server, caches for five minutes, and shows an empty state rather than sample numbers. [Live&nbsp;↗](https://www.oqexip.site) |
+| <code>U1</code>&nbsp;Interface | **[EasyVert](https://github.com/Oqexip/EasyVert)** | React · Vite · ffmpeg.wasm · pdf-lib | Converts PDF, Office, image and media files entirely in the browser, so nothing is ever uploaded. [Live&nbsp;↗](https://easyvert.vercel.app) |
+| <code>U1</code>&nbsp;Interface | **[Asterism](https://github.com/Oqexip/Asterism)** | JavaScript · Canvas | An interactive star atlas. Chain stars into your own constellations, navigate by keyboard, and keep your figures in local storage. No build step. |
+| <code>U2</code>&nbsp;Server | **[OmongIn](https://github.com/Oqexip/OmongIn)** | Laravel 12 · Tailwind | Anonymous discussion boards with threads, nested replies and voting. Middleware lets guests take part through tracked sessions, no account needed. |
+| <code>U2</code>&nbsp;Server | **[LSP E-Ticketing](https://github.com/Oqexip/LSP_E-Ticketing)** | Laravel · Blade | Ticket booking with schedules and transactions, plus an admin side for bookings and reports. |
+| <code>U3</code>&nbsp;Vision | **[handTracking](https://github.com/Oqexip/handTracking)** | Python · OpenCV · MediaPipe | Frame a "portal" with both hands. MediaPipe tracks four fingertips and one of 11 real-time filters renders inside the frame, with selfie segmentation for the effects that need it. |
+| <code>U4</code>&nbsp;Device | **[tetrisNano](https://github.com/Oqexip/tetrisNano)** | C++ · Arduino Nano | Tetris on an upright 8×32 MAX7219 LED matrix, with joystick input, an I²C OLED scoreboard and a buzzer melody. |
+| <code>U4</code>&nbsp;Device | **[Sedia Aku Sebelum Banjir](https://github.com/Oqexip/sediaAkuSebelumBanjir)** | C++ · ESP32 · MQTT | Flood early warning. It reads an ultrasonic sensor every 200 ms; below 20 cm it sounds a siren, locks two servos and alerts Telegram, while MQTT telemetry feeds a local web dashboard. |
 
 <br>
 
@@ -64,35 +50,10 @@ Every day I commit, a star lights up. Consecutive days are joined into a constel
 
 <br>
 
-<a name="how-the-sky-works"></a>
-<details>
-<summary><b>How the sky works</b></summary>
-
-<br>
-
-About 860 lines of dependency-free JavaScript, run hourly by [`snake.yml`](.github/workflows/snake.yml):
-
-1. **Clock to sky.** The current instant becomes a Julian date, then the local sidereal time over Indonesia (IAU 1982).
-2. **Stars.** 1,627 stars brighter than magnitude 5 are precessed from J2000 to today's date (IAU 1976), then turned into altitude and azimuth. Their colours come from each star's B–V index, by way of its temperature.
-3. **Sun, Moon, planets.** The Sun and Moon follow the Astronomical Almanac's low-precision series, with parallax applied to the Moon, which is close enough that your spot on Earth shifts it. Mercury to Saturn come from JPL's Keplerian elements. The Moon's phase and the tilt of its lit side are calculated, not picked from a set of icons.
-4. **Projection.** Stereographic, zenith in the middle, north up and east on the left: the sky as you'd see it lying on your back with your head to the north.
-5. **Light.** The dome's colour follows the Sun through day, golden hour and three kinds of twilight. Stars fade in daylight, the Milky Way dims near the horizon, and a bright Moon washes it out.
-6. **Words.** The panel says what is up right now, and *Look up* picks a different sight each hour from whatever is really above the horizon.
-
-**Checked** against [astronomy-engine](https://github.com/cosinekitty/astronomy) at six instants between 2025 and 2030: stars and the Sun within 0.01°, planets within 0.1°, the Moon within 0.25°, and the Moon's phase within 0.1%.
-
-**Nusantara names** on the chart: *Gubuk Penceng* (the Southern Cross), *Waluku* (Orion's Belt), *Bintang Tujuh* (the Pleiades), *Biduk* (the Big Dipper), *Kalajengking* (Scorpius) and *Bima Sakti* (the Milky Way).
-
-**Data:** stars and constellation figures from [d3-celestial](https://github.com/ofrohn/d3-celestial) by Olaf Frohn ([BSD-3-Clause](.github/data/LICENSE-d3-celestial.txt)), drawn from the XHIP catalogue (Anderson & Francis, 2012).
-
-</details>
-
-<br>
-
 <p align="center">
-  <a href="https://www.oqexip.site">oqexip.site</a>
+  <a href="https://www.oqexip.site">Portfolio</a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/Oqexip?tab=repositories">all repositories</a>
+  <a href="https://github.com/Oqexip?tab=repositories">All repositories</a>
   <br><br>
-  <sub><i>Clear skies.</i></sub>
+  <sub><i>Fullstuck developer. No bugs, only features.</i></sub>
 </p>
