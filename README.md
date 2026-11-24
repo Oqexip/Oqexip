@@ -27,10 +27,11 @@
       <img src="https://raw.githubusercontent.com/Oqexip/Oqexip/output/contribution-sky.svg" alt="Ilham's GitHub contributions for the last twelve months drawn as a star field, one star per day, with streaks joined like constellations, plus total, current streak and longest streak" width="100%">
     </picture>
   </a>
-</p align="center">
+</p>
 
-Every day I commit, a star lights up. Consecutive days are joined into a constellation, so a streak is literally something I draw.
-
+<p align="center">
+  Every day I commit, a star lights up. Consecutive days are joined into a constellation, so a streak is literally something I draw.
+</p>
 <br>
 
 <p align="center">
