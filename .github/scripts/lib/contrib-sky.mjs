@@ -154,8 +154,6 @@ export function contributionSky(stats, t) {
   </defs>
   ${frame(t, W, H)}
   <circle class="pulse" cx="70" cy="46" r="3.4" fill="${t.live}"/>
-  <text x="82" y="50" class="caps" font-size="11" fill="${t.accent}">Observation log · a year of light</text>
-  <text x="${W - 66}" y="50" text-anchor="end" class="caps" font-size="8.5" fill="${t.muted}">one star per day · brighter = more contributions</text>
   ${months.join("\n  ")}
   ${lng.svg}
   ${cur.svg}

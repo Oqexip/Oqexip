@@ -28,10 +28,6 @@
     </picture>
   </a>
 </p>
-
-<p align="center">
-  Every day I commit, a star lights up. Consecutive days are joined into a constellation, so a streak is literally something I draw.
-</p>
 <br>
 
 <p align="center">
