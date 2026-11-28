@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="345 total contributions, current streak 6 days, longest streak 15 days">
+  <rect width="495" height="195" rx="4.5" fill="#0D1117"/>
+  <line x1="165" y1="28" x2="165" y2="170" stroke="#30363D"/>
+  <line x1="330" y1="28" x2="330" y2="170" stroke="#30363D"/>
+  
+    <g transform="translate(82.5,0)" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif">
+      <text y="79" font-size="28" font-weight="700" fill="#C9D1D9">345</text>
+      <text y="115" font-size="14" fill="#C9D1D9">Total Contributions</text>
+      <text y="141" font-size="12" fill="#8B949E">Mar 20, 2024 - Present</text>
+    </g>
+  <circle cx="247.5" cy="71" r="40" fill="none" stroke="#58A6FF" stroke-width="5"/>
+  <g transform="translate(247.5,0)" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif">
+    <text y="80" font-size="28" font-weight="700" fill="#C9D1D9">6</text>
+    <text y="140" font-size="14" font-weight="700" fill="#58A6FF">Current Streak</text>
+    <text y="166" font-size="12" fill="#8B949E">Nov 22 - Nov 27</text>
+  </g>
+  
+    <g transform="translate(412.5,0)" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif">
+      <text y="79" font-size="28" font-weight="700" fill="#C9D1D9">15</text>
+      <text y="115" font-size="14" fill="#C9D1D9">Longest Streak</text>
+      <text y="141" font-size="12" fill="#8B949E">Jul 11 - Jul 25</text>
+    </g>
+</svg>
